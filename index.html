@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stackoverflow</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="site-head">
+	<nav class="navbar navbar-light bg-light justify-content-between">
+ 		<a class="navbar-brand">Stackoverflow</a>
+ 	 	<form class="form-inline">
+  
+  		  <input  class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	   	  <button class="btn btn-outline-success mr-sm-5" type="submit">Search</button>
+	  	  <button class="btn btn-outline-success mr-sm-4" type="button">log in</button>
+ 		  <button class="btn btn-outline-success" type="button">register</button>
+ 		 </form>
+	</nav>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-3 question-data question-first" id="user-data">
+			<div id="user-data_image">
+				<img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" height="200" width="200"></img>
+			</div>
+			<div id="user-data_grade">
+				 <span class="arrows">
+				 <input type="number" value="0" min="0" max="1000000000000000">
+				 <span onclick="this.previousElementSibling.stepUp()"></span>
+				 <span onclick="this.previousElementSibling.previousElementSibling.stepDown()"></span>
+				 </span>
+			</div>
+		</div>
+		<div class="col-5 question-data question-first">
+			<h5> How to build a moon park? </h5>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
+			Tags: <a href="#">black-jack</a>, <a href="#">bender</a>
+		</div>
+		<div class="col-3 members-data">
+			<h3>Popular tags</h3>
+			<h4><a href="#">coursera</a> <a href="#">python</a><br>
+			<a href="#">django</a> <a href="#">mysql</a></h4><br><br>
+			<h3>Best members</h3>
+			<h5>
+		    <a href="#">Mr.Freeman<br></a>
+		    <a href="#">Dr.House<br></a>
+		    <a href="#">Bender<br></a>
+		    <a href="#">Queen Victoria<br></a>
+		    </h5>
+		    
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-2 question2-data question2-border">
+			<div class="question2-image">
+				<img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" height="100" width="100"></img>
+			</div>
+			<div class="question2-grade">
+				<span class="arrows">
+				<input type="number" value="0" min="0" max="100">
+				<span onclick="this.previousElementSibling.stepUp()"></span>
+				<span onclick="this.previousElementSibling.previousElementSibling.stepDown()"></span>
+				</span>
+			</div>
+		</div>
+		<div class="col-5 question-data question2-border question2-border-right">
+			First of all I would like to thank you for the
+			invitation to participate in such a ... Russia is the
+			huge territory which in many respects needs to
+			be render habitable
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-2 question2-data question-data question2-border">
+			<div class="question2-image">
+				<img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" height="100" width="100"></img>
+			</div>
+			<div class="question2-grade">
+				<span class="arrows">
+				<input type="number" value="0" min="0" max="100">
+				<span onclick="this.previousElementSibling.stepUp()"></span>
+				<span onclick="this.previousElementSibling.previousElementSibling.stepDown()"></span>
+				</span>
+			</div>
+		</div>
+		<div class="col-5 question-data question2-border question2-border-right">
+			First of all I would like to thank you for the
+			invitation to participate in such a ... Russia is the
+			huge territory which in many respects needs to
+			be render habitable
+		</div>
+	</div>
+</div>
+<form>
+ <div class="container">
+	<div class="row">
+		<div class="col-8">
+			<div id="question-text" class="question-ask">
+    			<textarea placeholder="Enter your question here..." class="form-control" rows="6" required></textarea>
+   			</div> 
+   		</div>
+   	</div>
+</div>
+<div class="question-ask">
+   	<button class="btn btn-outline-success" type="button">Submit question</button>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
