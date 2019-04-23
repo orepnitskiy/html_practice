@@ -1,1 +1,2 @@
-Данная страница является практикой по front-end. Она была сверстана в соответствии с макетом, который лежит в файле draft.jpg. 
+You can find layout in the file draft.jpg. 
+You are welcome to use it :)
